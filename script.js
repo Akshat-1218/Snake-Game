@@ -13,6 +13,8 @@ const timeElement = document.querySelector("#time")
 const cols = Math.floor(board.clientWidth/blockwidth);
 const rows = Math.floor(board.clientHeight/blockheight);
 
+localStorage.removeItem("highScore");
+
 // for(let i=0;i<rows*cols;i++){
 //     const block = document.createElement('div');
 //     block.classList.add('block');
